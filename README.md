@@ -2,8 +2,8 @@
 
 This repository contains examples of using С++ code in С#. 
 
-* [**Marshaling**](https://github.com/SkivHisink/MarshalingCLRSamples/edit/main/README.md#marshaling)
-* [**CLR**](https://github.com/SkivHisink/MarshalingCLRSamples/edit/main/README.md#clr)
+* [**Marshaling**](https://github.com/SkivHisink/MarshalingCLRSamples/main/README.md#marshaling)
+* [**CLR**](https://github.com/SkivHisink/MarshalingCLRSamples/main/README.md#clr)
 
 ## Marshaling
 
