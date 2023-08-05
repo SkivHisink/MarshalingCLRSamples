@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>MarshalingSampleCSharp.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MarshalingSampleCpp\MarshalingSampleCpp.vcxproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy /Y &quot;$(SolutionDir)x64\Debug\MarshalingSampleCpp.pdb&quot; &quot;$(TargetDir)MarshalingSampleCpp.pdb&quot;&#xD;&#xA;copy /Y &quot;$(SolutionDir)x64\Debug\MarshalingSampleCpp.dll&quot; &quot;$(TargetDir)MarshalingSampleCpp.dll&quot;" />
+  </Target>
+
+</Project>
