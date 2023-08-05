@@ -21,12 +21,18 @@
     <ClInclude Include="ClrAdapter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AssemblyInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\VeryUsefulCodeLib\ArrayMagicConverter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ClrAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

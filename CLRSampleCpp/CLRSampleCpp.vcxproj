@@ -136,10 +136,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\VeryUsefulCodeLib\ArrayMagicConverter.hpp" />
+    <ClInclude Include="AssemblyInfo.h" />
     <ClInclude Include="ClrAdapter.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\VeryUsefulCodeLib\ArrayMagicConverter.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
     <ClCompile Include="ClrAdapter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
